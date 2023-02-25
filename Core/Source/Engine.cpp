@@ -18,7 +18,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRA
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 */
-#include "EngineIncludes.hpp"
+#include "CoreIncludes.hpp"
 int main() {
 	int videoWidth{ 800 };
 	int videoHeight{ 600 };
