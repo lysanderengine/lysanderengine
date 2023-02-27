@@ -5,4 +5,4 @@ The engine is in a pretty early stage of development right now and the only thin
 available is the Core engine, which you should be able to link to with C++
 
 You may want to clone using --recursive to checkout the SFML 2.5 submodule, and the batch/shell scripts should work after the repoand submodules are cloned.
-They do require Git and CMake as you may presume 
+They do require Git and CMake as you may presume. 
