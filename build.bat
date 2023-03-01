@@ -1,4 +1,6 @@
+@echo off
 cd Core
 mkdir build 
-cmake /build
+cd build
+cmake ..
 cmake --build . --target LysanderCore --config Debug 
