@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 cd Core
-mkdir build 
+DIR="$PWD/build"
+if [ ! -d "$DIR" ]; then
+  mkdir build
+fi
 cd build
 cmake ..
-cmake --build . --target LysanderCore --config Debug 
+cmake --build . --target LysanderCore --config Debug

@@ -1,6 +1,8 @@
 @echo off
 cd Core
-mkdir build 
+if not exist build\ (
+  mkdir build
+)
 cd build
 cmake ..
-cmake --build . --target LysanderCore --config Debug 
+cmake --build . --target LysanderCore --config Debug
