@@ -1,5 +1,5 @@
 /*
-Lysander.hpp - Key includes for external linking
+Sprites.cpp - Functions relating to rendering sprites.
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Copyright (C) 2023 The Lysander Engine Project
 
@@ -18,6 +18,16 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRA
 IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 */
-#pragma once
-#include "Engine.hpp"
-#include "Sprites.hpp"
+#include "CoreIncludes.hpp"
+
+sf::Sprite renderSprite(float x, float y, std::string filename) {
+  sf::Texture texture;
+  if (!texture.loadFromFile(filename))
+  {
+    return 1;
+  }
+  sf::Sprite sprite;
+  sprite.setTexture(texture);
+  sprite.setPosition(sf::Vector2f(x, y));
+  return sprite;
+}

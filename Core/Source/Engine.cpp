@@ -19,11 +19,9 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 */
 #include "CoreIncludes.hpp"
-int createWindow(sf::RenderWindow Window) {
-	int videoWidth{ 800 };
-	int videoHeight{ 600 };
-  Window(sf::VideoMode(800, 600), "Lysander Engine Core");
-	return 0;
+void createWindow(sf::RenderWindow Window) {
+	Window.setTitle("Lysander Engine Player");
+	Window.setFramerateLimit(60);
 }
 
 void engineLoop(sf::RenderWindow Window) {
