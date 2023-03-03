@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 project(LysanderCore)
-add_library(LysanderCore Source/engine.cpp Source/CoreIncludes.hpp)
+add_library(LysanderCore Source/engine.cpp Source/CoreIncludes.hpp Source/Lysander.hpp)
 
 add_subdirectory(External/SFML)
 
