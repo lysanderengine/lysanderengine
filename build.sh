@@ -5,5 +5,5 @@ if [ ! -d "$DIR" ]; then
   mkdir build
 fi
 cd build
-cmake ..
+cmake ../..
 cmake --build . --target LysanderCore --config Debug

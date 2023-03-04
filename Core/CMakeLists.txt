@@ -1,6 +1,3 @@
-cmake_minimum_required(VERSION 3.20)
-
-project(LysanderCore)
 add_library(LysanderCore Source/engine.cpp Source/CoreIncludes.hpp Include/Lysander.hpp)
 
 include(FetchContent)

@@ -4,5 +4,5 @@ if not exist build\ (
   mkdir build
 )
 cd build
-cmake ..
+cmake ../..
 cmake --build . --target LysanderCore --config Debug
