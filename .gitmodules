@@ -1,4 +1,0 @@
-[submodule "Core/External/SFML"]
-	path = Core/External/SFML
-	url = https://github.com/SFML/SFML.git
-            branch = 2.5.x

@@ -19,5 +19,5 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 */
 #pragma once
-#include "Engine.hpp"
-#include "Sprites.hpp"
+#include "../Source/Engine.hpp"
+#include "../Source/Sprites.hpp"
